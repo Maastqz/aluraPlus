@@ -3,11 +3,13 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
+    --font-principal: 'inter';
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco-principal)
+    color: var(--branco-principal);
+    font-family: var(--font-principal);
 }
 
 *{
@@ -33,4 +35,9 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
 }
